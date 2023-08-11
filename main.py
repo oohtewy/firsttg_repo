@@ -41,7 +41,7 @@ def _send_local_file(update, context):
         RU: Мы должны открыть файл в двоичном режиме,
         иначе Telegram не сможет обработать его правильно
     """
-    with open("Telegrambot/me.jpg", "rb") as f:
+    with open("C:\\MY_Folder\\learning\\IT\Telegram_bots\\firsttg_repo\\Снимок экрана 2023-07-27 165617.png", "rb") as f:
         """
                 update.message.reply_photo(photo, caption=None)
             photo   - Photo to send
@@ -51,7 +51,7 @@ def _send_local_file(update, context):
 
 
 def _send_mp3(update: Update, context: CallbackContext):
-    with open("music.mp3", "rb") as f:
+    with open("click.mp3", "rb") as f:
         update.message.reply_audio(f, caption="This is mp3")
 
 
