@@ -41,7 +41,7 @@ def _send_local_file(update, context):
         RU: Мы должны открыть файл в двоичном режиме,
         иначе Telegram не сможет обработать его правильно
     """
-    with open("C:\\MY_Folder\\learning\\IT\Telegram_bots\\firsttg_repo\\Снимок экрана 2023-07-27 165617.png", "rb") as f:
+    with open("qwe.png", "rb") as f:
         """
                 update.message.reply_photo(photo, caption=None)
             photo   - Photo to send
